@@ -15,7 +15,9 @@ public class UpperCaseToLowerCase {
 		
 		for(int i=0;i<c.length;++i)
 		{
-			c[i] =  (char)(c[i]+32);
+			if (c[i] >= 'A' && c[i] <= 'Z') {
+			      c[i] =  (char)(c[i]+32);
+			}
 		}
 		
 		System.out.println(String.valueOf(c));
