@@ -7,7 +7,7 @@ public class DeleteElement {
 	
 		boolean check = false; //to check element deleted or not
 		int arr[] =new int[] {10,20,30,40,50,60,70};
-		int delete =40;
+		int delete =7;
 		for(int i=0;i<arr.length;++i)
 	 {
 		 if(delete==arr[i])

@@ -8,8 +8,8 @@ public class InsertElement {
 	public static void main(String[] args) {
 	
 		int arr[] =new int[] {10,20,30,40,50,60,70};
-		int element =99;
-		int position =-1 ;
+		int element =98;
+		int position =2 ;
 		
 		if(position>arr.length || position<0)
 		{
